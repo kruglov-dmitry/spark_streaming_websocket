@@ -26,7 +26,7 @@ sh start.sh
   Please note that all other settings are similar to conf/test.conf
 5) execute start.sh by invoking sh start.sh it will submit job to spark cluster
 ```bash
-sh spark_test.sh
+sh start.sh
 ```
 6) results will be shown within stdout of application at WebUI of SparkMaster
  
