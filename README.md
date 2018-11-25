@@ -31,5 +31,4 @@ sh spark_test.sh
 6) results will be shown within stdout of application at WebUI of SparkMaster
  
 ### Tehcnicality notes
-We use docker-compose with mounted volumes with json data file that will allow 
-every executor be able to play with data.
+We use docker-compose with mounted volumes with configuration files for app and logging.
