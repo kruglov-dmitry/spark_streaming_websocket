@@ -6,7 +6,7 @@ SBT 0.13.17
 ```bash
 sbt assembly
 ```
-NOTE: We will run tests during assembly task with default configuration file: conf/local.conf
+NOTE: We will run tests during assembly task with default configuration file: conf/test.conf
 
 ### How to run
 ## Subscribe to live feed
