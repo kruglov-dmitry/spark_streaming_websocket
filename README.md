@@ -21,9 +21,9 @@ sh start.sh
 1) sudo docker-compose -f deploy/spark.yaml up
 2) validate it at http://localhost:8080/ to check number of registered workers
 3) note internal ip of docker vm with spark master
-4) edit cfg file at conf/app.conf to specify valid spark master ip:
+4) edit cfg file at conf/stream.conf to specify valid spark master ip:
  * **spark.spark_master**=spark://**172.19.0.2:7077**   
-  Please note that all other settings are similar to conf/local.conf but their names must have prefix `spark.`  
+  Please note that all other settings are similar to conf/test.conf
 5) execute start.sh by invoking sh start.sh it will submit job to spark cluster
 ```bash
 sh spark_test.sh
